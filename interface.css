@@ -1,0 +1,96 @@
+
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+
+.button {
+    padding:0.5em;
+    outline: none;
+    color:#fff;
+    margin: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.editBtn {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.delBtn {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.addBtn {
+    background-color: rgb(219, 22, 121); 
+}
+
+.go-right{
+    float: right;
+}
+.go-left{
+    float: left;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: rgb(90, 104, 165);
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 85.8%;
+    height: 40px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: rgb(15, 13, 14);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border:1px solid rgb(219, 22, 121);
+    width: 82%;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#spoiler{
+ display: none;
+}
+
+#editbtn{
+    padding: 5px; margin: 0;
+     border: 1px solid #ccc;
+     -moz-border-radius: 2px;
+      -webkit-border-radius: 2px; 
+      border-radius: 2px; 
+      background-color: rgb(146, 23, 23);
+      font-family: sans-serif;
+      
+}
+
